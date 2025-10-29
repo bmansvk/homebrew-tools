@@ -5,7 +5,6 @@ class Keymaster < Formula
   license "MIT"
 
   depends_on :macos => :monterey  # macOS 12+
-  depends_on xcode: ["14.0", :build]
 
   def install
     # Compile the Swift source with release optimizations
