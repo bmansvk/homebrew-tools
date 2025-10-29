@@ -1,7 +1,7 @@
 class Keymaster < Formula
   desc "Secure macOS Keychain helper with Touch ID and password protection"
   homepage "https://github.com/bmansvk/keymaster"
-  head "https://github.com/bmansvk/keymaster.git", branch: "main"
+  head "https://github.com/bmansvk/keymaster.git", branch: "master"
   license "MIT"
 
   depends_on :macos => :monterey  # macOS 12+
